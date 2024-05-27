@@ -1,0 +1,13 @@
+def temp(f):
+    c = int(5/9 * (f - 32))
+    print("La temperatura en grados celsius es :", c)
+f = int(input("Pon la temperatura en grados fahrenheit :"))
+temp(f)
+if (f > 68 and f < 86):
+    print ("La temperatura es agradable y no hace mucho calor")
+elif (f >= 86):
+        print ("Hace mucho calor, no salgas de casa")
+elif (f >50 and f <=68):
+        print ("Reuerda ponerte una chaquetilla")
+else:
+    print ("Recuerda ponerte un abrigo")
